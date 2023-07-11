@@ -1,0 +1,12 @@
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjust the gap as per your preference */
+}
+
+.social-media-icon {
+  color: white; /* Customize the icon color */
+  font-size: 40px; /* Customize the icon size */
+  text-decoration: none;
+}

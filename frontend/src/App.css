@@ -1,0 +1,25 @@
+/* App.css */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  background-color: var(--container-bg-color);
+}
+
+/* Define light theme styles */
+:root:not(.dark-mode) {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --container-bg-color: #f2f2f2;
+}
+
+/* Define dark theme styles */
+:root.dark-mode {
+  --bg-color: #191970;
+  --text-color: #ffffff;
+  --container-bg-color: #000000;
+}
+
+/* Add more styles for different components */
